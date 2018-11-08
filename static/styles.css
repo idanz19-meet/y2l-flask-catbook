@@ -1,0 +1,35 @@
+h1 {
+	color:red;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(0.1);
+		opacity: 0;
+	}
+	60% {
+		transform: scale(1.2);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+#anim {
+	animation: bounce 2s;
+	animation-iteration-count: infinite;
+}
+
+.orange {
+	color:brown;
+}
+
+#police {
+	color:blue;
+}
+
+body {
+	background-color:white;
+	text-align:center;
+}
